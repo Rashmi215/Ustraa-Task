@@ -28,13 +28,13 @@ class Categories extends Component{
             indicatorColor="primary"
             textColor="primary"
             variant="scrollable"
-            scrollButtons="auto"
+            scrollButtons="on"
           >
           {this.state.categories.map(category =>{
             return(
-              <div>
+              <div key={category.category_id}>
                 <Link to ={`/${category.category_id}`} >
-                <div className='container' key={category.category_id}>
+                <div className='container'>
                   <Tab
                     icon = {<img src={category.category_image}
                     alt={category.category_name} />}

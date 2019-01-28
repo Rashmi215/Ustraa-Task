@@ -6,9 +6,11 @@ const Product = (props) =>{
    <div className='mt-5 px-2'>
       {products.map(product =>{
         return(
-          <div className="media p-3 bg-white" key={product.id}>
-            <img src={product.image_urls["x300"]} alt="img" className="mr-5 mt-1 ml-4" style={{width:180}}/>
-            <div className="media-body mt-1">
+          <div className='container-fluid'>
+
+          <div className="media p-3 bg-white row" key={product.id}>
+            <img src={product.image_urls["x300"]} alt="img" className="mr-5 mt-1 ml-4 col-sm-2" style={{width:180}}/>
+            <div className="media-body mt-1 col-sm-10">
               <a href= '/' style={{color:'black'}}>
                 <h5>
                   { product.name }
@@ -40,9 +42,12 @@ const Product = (props) =>{
               }
             </div>
           </div>
+
+          </div>
         )
       })}
-   </div>
+    </div>
+
  );
 }
 
