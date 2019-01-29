@@ -1,0 +1,26 @@
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .productTabs{
+        tab-size: 3
+        }
+    .rootContainer{
+        width: 100vw
+    }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 768px){
+    .productTabs{
+        tab-size: 2
+    }
+    .rootContainer{
+        width: 100vw
+    }
+}
+
+@media only screen and (max-width : 480px){
+    .productTabs{
+        tab-size: 1
+    }
+    .rootContainer {
+        width : 100vw
+    }
+}

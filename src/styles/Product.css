@@ -1,0 +1,83 @@
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    #productName  {
+        font-size: 100%
+    }
+    #productRating {
+        font-size: 100%
+    }
+    #productDesc {
+        font-size: 100%
+    }
+    #addButton #outButton{
+        size: 100%
+    }
+
+    #addSpan #outSpan{
+        font-size: 100%
+    }
+
+    #productPrice{
+        font-size: 100%
+    }
+
+    .rootProduct{
+        width: 100%
+    }
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 768px){
+    .rootProduct{
+        width: 100%
+    }
+    #productName  {
+        font-size: 75%
+    }
+    #productRating {
+        font-size: 75%
+    }
+    #productDesc {
+        font-size: 75%
+    }
+    #addButton #outButton{
+        size: 75%
+    }
+
+    #addSpan #outSpan{
+        width:75%;
+        font-size: 75%
+    }
+    #productPrice{
+        font-size: 75%
+    }
+
+
+}
+
+@media only screen and (max-width : 480px){
+    .rootProduct{
+        width: 100%;
+    }
+    #productName  {
+        font-size: 67%;
+    }
+    #productRating {
+        font-size: 67%;
+    }
+    #productDesc {
+        font-size: 67%;
+    }
+    #addButton #outButton{
+        size: 67%;
+    }
+
+    #addSpan #outSpan{
+        width:67%;
+        font-size: 67%;
+    }
+
+    #productPrice{
+        font-size: 67%;
+    }
+
+}
