@@ -59,25 +59,25 @@
         width: 100%;
     }
     #productName  {
-        font-size: 67%;
+        font-size: 75%;
     }
     #productRating {
-        font-size: 67%;
+        font-size: 75%;
     }
     #productDesc {
-        font-size: 67%;
+        font-size: 75%;
     }
     #addButton #outButton{
-        size: 67%;
+        size: 75%;
     }
 
     #addSpan #outSpan{
-        width:67%;
-        font-size: 67%;
+        width: 75% auto;
+        font-size: 75%;
     }
 
     #productPrice{
-        font-size: 67%;
+        font-size: 75%;
     }
 
 }

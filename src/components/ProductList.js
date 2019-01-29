@@ -31,12 +31,12 @@ class ProductList extends Component{
     return(
       <div className='container-fluid'>
         {isLoading ? (
-          <div style={{marginLeft: '45%', marginTop: '15%'}} className='container'>
+          <div style={{ marginTop: '15%'}} className='container'>
            <Loader
             type='Bars'
             color='#00BFFF'
-            height='80'
-            width='80'/>
+            height='50'
+            width='50'/>
           </div>
         ) : (<Product products={products} />)}
       </div>

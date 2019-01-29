@@ -54,7 +54,7 @@ class Product extends Component{
                 {product.is_in_stock ?
                   (
                     <button
-                    className ='btn btnClass'
+                    className ='btn btn-md btnClass'
                     type='button'
                     style={{background:'#4FCF64'}}
                     id='addButton'>
